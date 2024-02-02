@@ -25,7 +25,6 @@ This project is a simple Node.js and MongoDB application for E-Commerce. It prov
 Before you begin, ensure you have met the following requirements:
 
 - Node.js installed
-- MongoDB installed and running
 - npm or yarn installed
 
 ## Installation
