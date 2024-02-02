@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../../app'); // Update with the path to your app file
+const app = require('../../app'); 
 const Product = require('../../models/product');
 
 // Mock data for testing

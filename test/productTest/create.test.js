@@ -1,7 +1,7 @@
 // product.test.js
 const request = require('supertest');
 const Product = require('../../models/product');
-const app = require('../../app'); // Update with the path to your app file
+const app = require('../../app'); 
 
 describe('Product API Tests', () => {
     // Mock data for testing
@@ -9,7 +9,7 @@ describe('Product API Tests', () => {
         _id: '65bc8fc9958633c81a6eae89',
         name: 'moto gb',
         description: 'smartPhone',
-        // ... other fields
+
     };
   
     jest.mock('../../models/product', () => ({

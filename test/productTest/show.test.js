@@ -1,15 +1,14 @@
 // product.test.js
 const request = require('supertest');
 const Product = require('../../models/product');
-const app = require('../../app'); // Update with the path to your app file
+const app = require('../../app'); 
 
 describe('Product API Tests', () => {
   // Mock data for testing
   const mockProduct = {
-      _id: '65bc8fc9958633c81a6eae89',
-      name: 'moto gb',
-      description: 'smartPhone',
-      // ... other fields
+      _id: '65bd04f419d200a2d56552fb',
+      name: 'lava',
+      description: 'smart phone',
   };
 
   jest.mock('../../models/product', () => ({
@@ -33,7 +32,7 @@ describe('Product API Tests', () => {
       _id: mockProduct._id,
       name: mockProduct.name,
       description: mockProduct.description,
-      // ... other fields
+      
     }));
   });
 
@@ -45,18 +44,5 @@ describe('Product API Tests', () => {
 
     expect(response.status).toBe(404);
     expect(response.body).toHaveProperty('error', 'product not found');
-  });
-
-
-  
-
-
-
-
-  // Add more test cases for other routes (show, update, delete, search)
-
-
-
-  
-  
+  });  
 });

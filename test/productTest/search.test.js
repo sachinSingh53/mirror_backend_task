@@ -13,6 +13,5 @@ describe('Product API Tests', () => {
       
         expect(response.status).toBe(200);
         expect(response.body).toHaveProperty('products');
-        // Add more assertions based on your expected search results
       });
 });
