@@ -38,6 +38,10 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    npm install
+3. make a .env file
+   ```bash
+   PORT=3000
+   DB_URL=ADD_YOUR_DATABASE_URL
 
 ## Usage
 
