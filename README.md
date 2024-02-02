@@ -35,3 +35,8 @@ Before you begin, ensure you have met the following requirements:
 
    ```bash
    git clone https://github.com/sachinSingh53/mirror_backend_task.git
+   
+2. Install dependencies:
+
+   ```bash
+   npm install
