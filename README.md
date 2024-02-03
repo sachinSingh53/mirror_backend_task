@@ -71,7 +71,7 @@ The server will be running at http://localhost:3000.
 - **PUT /variants/:varId**: Update a variant by ID
 - **DELETE /variants/:varId**: Delete a variant by ID
 
-  Postman Environment: https://www.postman.com/grey-desert-231793/workspace/public/collection/25577326-e6ae9cc4-684a-4828-9c76-bedd9fa856cf?action=share&creator=25577326
+  Postman Cluster: https://www.postman.com/grey-desert-231793/workspace/public/collection/25577326-e6ae9cc4-684a-4828-9c76-bedd9fa856cf?action=share&creator=25577326
 
 ## Architecture
 ![Untitled Diagram drawio](https://github.com/sachinSingh53/mirror_backend_task/assets/96944676/f908020c-a93a-4b0b-9919-15f8a0685f1f)
